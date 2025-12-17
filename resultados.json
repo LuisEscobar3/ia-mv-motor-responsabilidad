@@ -1,0 +1,102 @@
+{
+  "resumen_fuentes_informacion": {
+    "evidencia_visual_disponible": "si",
+    "calidad_evidencia_visual": "regular",
+    "testimonio_disponible": "no",
+    "coherencia_fuentes": "no_aplicable",
+    "limitaciones_globales": ["relato_unilateral", "evidencia_insuficiente"]
+  },
+  "analisis_por_vehiculo": {
+    "vehiculo_a": {
+      "identificacion_consolidada": {
+        "tipo": "automovil_sedan",
+        "marca": "Renault",
+        "modelo": "Sandero Stepway",
+        "color": "gris_claro_plata",
+        "placa": "KYY538",
+        "año_aproximado": "2015-2020"
+      },
+      "comportamiento_pre_impacto": {
+        "maniobra_principal": "indeterminado",
+        "velocidad_estimada": "detenido",
+        "señales_precautorias": "no_determinable"
+      },
+      "circunstancia_marcus": {
+        "id": "C6",
+        "descripcion": "Frenaba o disminuía velocidad"
+      },
+      "justificacion_asignacion": {
+        "evidencia_primaria": "El vehículo A presenta daños en la parte trasera, lo que sugiere que fue impactado por detrás.  La ausencia de marcas de frenado o derrape sugiere que el vehículo A estaba detenido o se desplazaba a muy baja velocidad.",
+        "evidencia_secundaria": "null",
+        "razonamiento_tecnico": "La posición final de los vehículos y el patrón de daños son consistentes con un impacto por alcance.  En ausencia de testimonio, la hipótesis más probable es que el vehículo A se encontraba detenido o reduciendo la velocidad cuando fue impactado por el vehículo B.",
+        "nivel_certeza": "media"
+      },
+      "factores_considerados": {
+        "condiciones_via": ["estado_superficie"],
+        "factores_vehiculares": ["ninguno_evidente"],
+        "factores_humanos": ["ninguno_evidente"]
+      }
+    },
+    "vehiculo_b": {
+      "identificacion_consolidada": {
+        "tipo": "automovil_hatchback",
+        "marca": "Renault",
+        "modelo": "Megane",
+        "color": "gris_oscuro",
+        "placa": "MSW212",
+        "año_aproximado": "2016-2023"
+      },
+      "comportamiento_pre_impacto": {
+        "maniobra_principal": "circulaba_recto",
+        "velocidad_estimada": "baja",
+        "señales_precautorias": "no_determinable"
+      },
+      "circunstancia_marcus": {
+        "id": "C2",
+        "descripcion": "Chocó la parte trasera del otro vehículo"
+      },
+      "justificacion_asignacion": {
+        "evidencia_primaria": "El vehículo B presenta daños en la parte frontal, consistentes con un impacto contra la parte trasera de otro vehículo. La ausencia de marcas de frenado o derrape sugiere que el vehículo B no realizó una maniobra evasiva significativa.",
+        "evidencia_secundaria": "null",
+        "razonamiento_tecnico": "La posición final de los vehículos y el patrón de daños indican que el vehículo B impactó la parte trasera del vehículo A.  Sin testimonios, la hipótesis más probable es que el vehículo B no mantuvo una distancia de seguridad prudente o no reaccionó a tiempo a la presencia del vehículo A.",
+        "nivel_certeza": "media"
+      },
+      "factores_considerados": {
+        "condiciones_via": ["estado_superficie"],
+        "factores_vehiculares": ["ninguno_evidente"],
+        "factores_humanos": ["ninguno_evidente"]
+      }
+    }
+  },
+  "analisis_comparativo": {
+    "punto_conflicto_identificado": "El punto de conflicto se ubica en el carril derecho de la vía donde ocurrió el impacto por alcance.",
+    "secuencia_causal": "El vehículo A se encontraba detenido o reduciendo la velocidad en el carril derecho. El vehículo B, circulando en el mismo carril, impactó la parte trasera del vehículo A.",
+    "factor_desencadenante": "La colisión fue desencadenada por el impacto del vehículo B contra la parte trasera del vehículo A.",
+    "evitabilidad_analisis": {
+      "vehiculo_a": "dificilmente_evitable",
+      "vehiculo_b": "totalmente_evitable",
+      "tiempo_reaccion_disponible": "indeterminable"
+    }
+  },
+  "conclusion_general_del_caso": {
+    "dinamica_consolidada": "El vehículo A se encontraba detenido o reduciendo la velocidad en el carril derecho de una vía urbana con pavimento mojado. El vehículo B, circulando en el mismo sentido y carril, impactó la parte trasera del vehículo A. La evidencia visual sugiere un impacto por alcance a baja velocidad.",
+    "determinacion_responsabilidad_primaria": "Vehiculo_B",
+    "porcentaje_responsabilidad": {
+      "vehiculo_a": "0",
+      "vehiculo_b": "100",
+      "justificacion_porcentajes": "En ausencia de testimonios y con la evidencia visual disponible, se asigna la responsabilidad al vehículo B por impactar la parte trasera del vehículo A.  El vehículo B tenía la responsabilidad de mantener una distancia de seguridad prudente y adaptar su velocidad a las condiciones de la vía."
+    },
+    "confianza_decision_global": "media",
+    "inconsistencias_criticas": {
+      "contradicciones_identificadas": "null",
+      "impacto_en_conclusion": "ninguno",
+      "resolucion_aplicada": "no_aplicable"
+    },
+    "factores_limitantes": ["falta_testimonios", "calidad_imagenes", "informacion_limitada_sobre_la_dinamica_previa_al_impacto"],
+    "recomendaciones_adicionales": {
+      "evidencia_complementaria": "testimonios",
+      "investigacion_adicional": "ninguna_necesaria",
+      "consideraciones_especiales": "ninguna"
+    }
+  }
+}

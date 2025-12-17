@@ -1,0 +1,22 @@
+# --- LangChain stack (versiones compatibles) ---
+langchain==0.3.27
+langchain-core==0.3.76
+langchain-experimental==0.3.2
+
+# --- NLP / ML ---
+transformers==4.44.2
+numpy==1.26.4
+
+# --- Validaciones / utils ---
+pydantic[email]==2.11.9
+python-dotenv==1.0.1
+
+# --- DB ---
+psycopg2-binary==2.9.10
+
+# --- PDF -> JPG (PyMuPDF) ---
+pymupdf==1.24.10
+openpyxl
+pyyaml
+# --- Librería privada (JFrog) ---
+https://carlos.alberto.diaz@segurosbolivar.com:cmVmdGtuOjAxOjE3NzM1MTcyOTM6d0dLcmdIOEFaY0F2MHpZNEJCTGFZZkdRUUJ5@segurosbolivar.jfrog.io/artifactory/transversal-ia-langchain-python-lib-dev-virtual/ia_transversal_langchain_python_lib/2.6.3/ia_transversal_langchain_python_lib-2.6.3-py3-none-any.whl
