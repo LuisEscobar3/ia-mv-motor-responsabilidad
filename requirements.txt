@@ -1,9 +1,18 @@
 # --- LangChain stack (versiones compatibles) ---
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
 langchain==0.3.27
 langchain-core==0.3.76
 langchain-experimental==0.3.2
+
+# --- API (FastAPI + server para Cloud Run) ---
+fastapi==0.124.4
+uvicorn==0.38.0
+gunicorn==23.0.0
+
+# Si vas a recibir archivos (multipart/form-data) en endpoints
+python-multipart>=0.0.9
+
+# Si haces llamadas HTTP salientes (APIs externas)
+httpx>=0.27.0
 
 # --- NLP / ML ---
 transformers==4.44.2
@@ -18,7 +27,11 @@ psycopg2-binary==2.9.10
 
 # --- PDF -> JPG (PyMuPDF) ---
 pymupdf==1.24.10
+
+# --- Otros ---
 openpyxl
 pyyaml
+
 # --- Librería privada (JFrog) ---
-https://carlos.alberto.diaz@segurosbolivar.com:cmVmdGtuOjAxOjE3NzM1MTcyOTM6d0dLcmdIOEFaY0F2MHpZNEJCTGFZZkdRUUJ5@segurosbolivar.jfrog.io/artifactory/transversal-ia-langchain-python-lib-dev-virtual/ia_transversal_langchain_python_lib/2.6.3/ia_transversal_langchain_python_lib-2.6.3-py3-none-any.whl
+# ⚠️ NO dejes credenciales aquí. Usa un Secret + pip config / .netrc y una URL SIN usuario/token hardcodeado.
+ia_transversal_langchain_python_lib @ https://segurosbolivar.jfrog.io/artifactory/transversal-ia-langchain-python-lib-dev-virtual/ia_transversal_langchain_python_lib/2.6.3/ia_transversal_langchain_python_lib-2.6.3-py3-none-any.whl
