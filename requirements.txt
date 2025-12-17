@@ -1,4 +1,6 @@
 # --- LangChain stack (versiones compatibles) ---
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
 langchain==0.3.27
 langchain-core==0.3.76
 langchain-experimental==0.3.2
